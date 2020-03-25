@@ -16,9 +16,9 @@ public class SignComporatorTest2 {
         SignComporatorBean signComporatorBean = new SignComporatorBean();
         SignComporatorDemo signComporatorDemo = new SignComporatorDemo();
         Assert.assertEquals("Number is positive", new SignComporatorBean(1));
- /*       Assert.assertEquals("Number is negative", signComporator.compare(-6));
+        Assert.assertEquals("Number is negative", signComporator.compare(-6));
         Assert.assertEquals("Number = 0", signComporator.compare(0));
-*/
+
     }
 
 }
